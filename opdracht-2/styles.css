@@ -3,3 +3,35 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.edhub {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.three ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+}
+
+label {
+    background-color: lightgreen;
+    display: grid;
+}
+
